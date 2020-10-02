@@ -1,0 +1,1081 @@
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.999949932098
+Row 'c14' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.980263948441
+Row 'c17' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.978114843369
+Tried aggregator 2 times.
+MIP Presolve eliminated 30 rows and 24 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Found incumbent of value 88.000000 after 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           88.0000        0.0000           100.00%
+      0     0       19.5000     2       88.0000       19.5000        2   77.84%
+*     0+    0                           20.0000       19.5000             2.50%
+      0     0        cutoff             20.0000       19.5000        2    2.50%
+Elapsed time = 0.00 sec. (0.12 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.12 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.12 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.974162817001
+Row 'c21' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.972044944763
+Tried aggregator 2 times.
+MIP Presolve eliminated 30 rows and 24 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Found incumbent of value 0.000000 after 0.00 sec. (0.07 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.07 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.07 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.9692299366
+Row 'c25' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.967124938965
+Row 'c20' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.965173006058
+Row 'c29' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.963138818741
+Row 'c31' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.96089887619
+Found incumbent of value 63.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 56 rows and 68 columns.
+MIP Presolve modified 63 coefficients.
+Aggregator did 1 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.11 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.12 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.12 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.958415985107
+Row 'c24' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.95633482933
+Row 'c37' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.954340934753
+Row 'c31' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.952508926392
+Row 'c41' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.950729846954
+Row 'c28' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.949017047882
+Row 'c45' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.947211027145
+Row 'c30' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.945516824722
+Row 'c49' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.02 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.03 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.03 ticks)
+--------------------------------
+Current state of priority queue: 
+    Node 2--e  with distance 0 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.0562561
+DistanceTo's solved: 18
+Adding node to fringe: 2--e 1--e  with distance 0 
+Adding node to fringe: 2--e 4--q  with distance 31 
+Adding node to fringe: 2--e 7--e  with distance 86 
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.100355
+DistanceTo's solved: 34
+Adding node to fringe: 2--e 1--e 4--q  with distance 0 
+Adding node to fringe: 2--e 1--e 7--e  with distance 15 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.158577
+DistanceTo's solved: 48
+Adding node to fringe: 2--e 1--e 4--q 7--e  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 8--e  with distance 78 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.345907
+DistanceTo's solved: 60
+Adding node to fringe: 2--e 1--e 4--q 7--e 0--e  with distance 39 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e  with distance 0 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.783525
+DistanceTo's solved: 70
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e  with distance 0 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 1.38748
+DistanceTo's solved: 78
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 3--q  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 5--e  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 6--e  with distance 77 
+Size of fringe: 10
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e 3--q  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 2.28537
+DistanceTo's solved: 84
+Pruning node 2--e 1--e 4--q 7--e 8--e 0--e 6--e  with distance 77 
+Pruning node 2--e 1--e 4--q 8--e  with distance 78 
+Pruning node 2--e 7--e  with distance 86 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e 5--e  with distance 0 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 6.95848
+DistanceTo's solved: 86
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 6.95861
+DistanceTo's solved: 86
+Adding node to fringe: 2--e 1--e 7--e 4--q  with distance 15 
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 7.02667
+DistanceTo's solved: 98
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e  with distance 37 
+Adding node to fringe: 2--e 1--e 7--e 4--q 8--e  with distance 15 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 8--e  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 7.79432
+DistanceTo's solved: 108
+Adding node to fringe: 2--e 1--e 7--e 4--q 8--e 0--e  with distance 15 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 8--e 0--e  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 9.35603
+DistanceTo's solved: 116
+Adding node to fringe: 2--e 1--e 7--e 4--q 8--e 0--e 3--q  with distance 15 
+Adding node to fringe: 2--e 1--e 7--e 4--q 8--e 0--e 5--e  with distance 15 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 8--e 0--e 3--q  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 11.3049
+DistanceTo's solved: 122
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 8--e 0--e 5--e  with distance 15 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 22.6101
+DistanceTo's solved: 124
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 1--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 22.6103
+DistanceTo's solved: 124
+Adding node to fringe: 1--e 2--e  with distance 20 
+Adding node to fringe: 1--e 4--q  with distance 32 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 22.6504
+DistanceTo's solved: 140
+Adding node to fringe: 1--e 2--e 4--q  with distance 20 
+Adding node to fringe: 1--e 2--e 7--e  with distance 20 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 22.6927
+DistanceTo's solved: 154
+Adding node to fringe: 1--e 2--e 4--q 7--e  with distance 20 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 22.8401
+DistanceTo's solved: 166
+Adding node to fringe: 1--e 2--e 7--e 4--q  with distance 20 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 22.909
+DistanceTo's solved: 178
+Adding node to fringe: 1--e 2--e 4--q 7--e 0--e  with distance 39 
+Adding node to fringe: 1--e 2--e 4--q 7--e 8--e  with distance 20 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e 4--q  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 23.3034
+DistanceTo's solved: 188
+Node subsumed: 1--e 2--e 7--e 4--q 0--e  with distance 37 
+Adding node to fringe: 1--e 2--e 7--e 4--q 8--e  with distance 20 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e 8--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 24.1021
+DistanceTo's solved: 198
+Adding node to fringe: 1--e 2--e 4--q 7--e 8--e 0--e  with distance 20 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e 4--q 8--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 24.7427
+DistanceTo's solved: 206
+Adding node to fringe: 1--e 2--e 7--e 4--q 8--e 0--e  with distance 20 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e 8--e 0--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 26.1202
+DistanceTo's solved: 214
+Adding node to fringe: 1--e 2--e 4--q 7--e 8--e 0--e 3--q  with distance 20 
+Adding node to fringe: 1--e 2--e 4--q 7--e 8--e 0--e 5--e  with distance 20 
+Size of fringe: 9
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e 4--q 8--e 0--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 26.9387
+DistanceTo's solved: 220
+Adding node to fringe: 1--e 2--e 7--e 4--q 8--e 0--e 3--q  with distance 20 
+Adding node to fringe: 1--e 2--e 7--e 4--q 8--e 0--e 5--e  with distance 20 
+Size of fringe: 10
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e 8--e 0--e 3--q  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 28.7691
+DistanceTo's solved: 226
+Size of fringe: 9
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e 8--e 0--e 5--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 34.3425
+DistanceTo's solved: 228
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e 4--q 8--e 0--e 3--q  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 34.3427
+DistanceTo's solved: 228
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 7--e 4--q 8--e 0--e 5--e  with distance 20 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 20
+TOTAL TIME USED SO FAR: 43.5772
+DistanceTo's solved: 230
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 43.5773
+DistanceTo's solved: 230
+Adding node to fringe: 2--e 4--q 1--e  with distance 31 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 43.6579
+DistanceTo's solved: 244
+Adding node to fringe: 2--e 4--q 1--e 7--e  with distance 31 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 43.8232
+DistanceTo's solved: 256
+Adding node to fringe: 2--e 4--q 1--e 7--e 0--e  with distance 58 
+Adding node to fringe: 2--e 4--q 1--e 7--e 8--e  with distance 31 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 8--e  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 44.1996
+DistanceTo's solved: 266
+Adding node to fringe: 2--e 4--q 1--e 7--e 8--e 0--e  with distance 31 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 8--e 0--e  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 45.0557
+DistanceTo's solved: 274
+Adding node to fringe: 2--e 4--q 1--e 7--e 8--e 0--e 3--q  with distance 31 
+Adding node to fringe: 2--e 4--q 1--e 7--e 8--e 0--e 5--e  with distance 31 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 8--e 0--e 3--q  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 45.6753
+DistanceTo's solved: 280
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 8--e 0--e 5--e  with distance 31 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 31
+TOTAL TIME USED SO FAR: 47.8127
+DistanceTo's solved: 282
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 47.8129
+DistanceTo's solved: 282
+Adding node to fringe: 1--e 4--q 2--e  with distance 32 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 47.9128
+DistanceTo's solved: 296
+Adding node to fringe: 1--e 4--q 2--e 7--e  with distance 32 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 48.1023
+DistanceTo's solved: 308
+Adding node to fringe: 1--e 4--q 2--e 7--e 0--e  with distance 54 
+Adding node to fringe: 1--e 4--q 2--e 7--e 8--e  with distance 32 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 8--e  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 48.5475
+DistanceTo's solved: 318
+Adding node to fringe: 1--e 4--q 2--e 7--e 8--e 0--e  with distance 32 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 8--e 0--e  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 49.5075
+DistanceTo's solved: 326
+Adding node to fringe: 1--e 4--q 2--e 7--e 8--e 0--e 3--q  with distance 32 
+Adding node to fringe: 1--e 4--q 2--e 7--e 8--e 0--e 5--e  with distance 32 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 8--e 0--e 3--q  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 50.1272
+DistanceTo's solved: 332
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 8--e 0--e 5--e  with distance 32 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 32
+TOTAL TIME USED SO FAR: 51.3395
+DistanceTo's solved: 334
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e  with distance 37 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 37
+TOTAL TIME USED SO FAR: 51.3397
+DistanceTo's solved: 334
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e  with distance 37 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e  with distance 37 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 37
+TOTAL TIME USED SO FAR: 53.8159
+DistanceTo's solved: 342
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e 3--q  with distance 37 
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e 5--e  with distance 37 
+Size of fringe: 7
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e 3--q  with distance 37 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 37
+TOTAL TIME USED SO FAR: 56.6754
+DistanceTo's solved: 348
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e 5--e  with distance 37 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 37
+TOTAL TIME USED SO FAR: 69.0675
+DistanceTo's solved: 350
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 39 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 39
+TOTAL TIME USED SO FAR: 69.0677
+DistanceTo's solved: 350
+Adding node to fringe: 2--e 1--e 4--q 7--e 0--e 8--e  with distance 39 
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 2--e 4--q 7--e 0--e  with distance 39 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 39
+TOTAL TIME USED SO FAR: 69.9555
+DistanceTo's solved: 358
+Node subsumed: 1--e 2--e 4--q 7--e 0--e 8--e  with distance 39 
+Size of fringe: 4
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 0--e 8--e  with distance 39 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 39
+TOTAL TIME USED SO FAR: 70.6651
+DistanceTo's solved: 366
+Adding node to fringe: 2--e 1--e 4--q 7--e 0--e 8--e 3--q  with distance 39 
+Adding node to fringe: 2--e 1--e 4--q 7--e 0--e 8--e 5--e  with distance 39 
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 0--e 8--e 3--q  with distance 39 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 39
+TOTAL TIME USED SO FAR: 71.5364
+DistanceTo's solved: 372
+Size of fringe: 4
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 0--e 8--e 5--e  with distance 39 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 39
+TOTAL TIME USED SO FAR: 79.5705
+DistanceTo's solved: 374
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 0--e  with distance 54 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 54
+TOTAL TIME USED SO FAR: 79.5707
+DistanceTo's solved: 374
+Adding node to fringe: 1--e 4--q 2--e 7--e 0--e 8--e  with distance 54 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 0--e 8--e  with distance 54 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 54
+TOTAL TIME USED SO FAR: 80.9158
+DistanceTo's solved: 382
+Adding node to fringe: 1--e 4--q 2--e 7--e 0--e 8--e 3--q  with distance 54 
+Adding node to fringe: 1--e 4--q 2--e 7--e 0--e 8--e 5--e  with distance 54 
+Size of fringe: 4
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 0--e 8--e 3--q  with distance 54 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 54
+TOTAL TIME USED SO FAR: 81.4597
+DistanceTo's solved: 388
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 1--e 4--q 2--e 7--e 0--e 8--e 5--e  with distance 54 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 54
+TOTAL TIME USED SO FAR: 84.712
+DistanceTo's solved: 390
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 0--e  with distance 58 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 58
+TOTAL TIME USED SO FAR: 84.7122
+DistanceTo's solved: 390
+Adding node to fringe: 2--e 4--q 1--e 7--e 0--e 8--e  with distance 58 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 0--e 8--e  with distance 58 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 58
+TOTAL TIME USED SO FAR: 85.7496
+DistanceTo's solved: 398
+Adding node to fringe: 2--e 4--q 1--e 7--e 0--e 8--e 3--q  with distance 58 
+Adding node to fringe: 2--e 4--q 1--e 7--e 0--e 8--e 5--e  with distance 58 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 0--e 8--e 3--q  with distance 58 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 58
+TOTAL TIME USED SO FAR: 86.3567
+DistanceTo's solved: 404
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 4--q 1--e 7--e 0--e 8--e 5--e  with distance 58 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 58
+TOTAL TIME USED SO FAR: 88.1531
+DistanceTo's solved: 406
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q  with distance 63 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 88.1532
+DistanceTo's solved: 406
+Adding node to fringe: 4--q 1--e  with distance 63 
+Adding node to fringe: 4--q 2--e  with distance 63 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e  with distance 63 
+    .... 
+    Node 4--q 2--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 88.2207
+DistanceTo's solved: 422
+Adding node to fringe: 4--q 1--e 2--e  with distance 63 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 2--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 88.3122
+DistanceTo's solved: 436
+Node subsumed: 4--q 2--e 1--e  with distance 63 
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 88.4109
+DistanceTo's solved: 450
+Adding node to fringe: 4--q 1--e 2--e 7--e  with distance 63 
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e 7--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e 7--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 88.5794
+DistanceTo's solved: 462
+Adding node to fringe: 4--q 1--e 2--e 7--e 8--e  with distance 63 
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e 7--e 8--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e 7--e 8--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 89.0628
+DistanceTo's solved: 472
+Adding node to fringe: 4--q 1--e 2--e 7--e 8--e 0--e  with distance 63 
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 89.5124
+DistanceTo's solved: 480
+Adding node to fringe: 4--q 1--e 2--e 7--e 8--e 0--e 3--q  with distance 63 
+Adding node to fringe: 4--q 1--e 2--e 7--e 8--e 0--e 5--e  with distance 63 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e 3--q  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e 5--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 89.7744
+DistanceTo's solved: 486
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e 5--e  with distance 63 
+    .... 
+    Node 4--q 1--e 2--e 7--e 8--e 0--e 5--e  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 65
+BEST LOWER BOUND = 63
+TOTAL TIME USED SO FAR: 92.7911
+DistanceTo's solved: 488
+Size of fringe: 0
+TOTAL TIME USED SO FAR: 92.7912
+====================================
+Minimal manipulation: 65
+Manipulated order: 3--e 2--e 5--q 8--e 9--e 1--e 4--q 7--e 6--q 
+Distance calls: 488
+CURRENT UPPER BOUND: 65
+CURRENT LOWER BOUND: 65
+Best definite upper bound: 88
+====================================

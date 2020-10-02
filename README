@@ -1,0 +1,3 @@
+Code base and test suite for paper `Towards Computing the Margins of Victory for STV Elections'.
+
+A script is provided that runs one of the experiments reported in the paper (computing margins for the GCC/07 Newlands STV election). Expected results are included in the files: expected_log_GCC_07_Newlands_K*.txt

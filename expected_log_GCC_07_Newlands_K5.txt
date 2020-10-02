@@ -1,0 +1,464 @@
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.999952077866
+Row 'c14' infeasible, all entries at implied bounds.
+Presolve time = 0.01 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.972404956818
+Row 'c17' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.970108032227
+Tried aggregator 2 times.
+MIP Presolve eliminated 30 rows and 24 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Found incumbent of value 88.000000 after 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           88.0000        0.0000           100.00%
+      0     0       19.5000     2       88.0000       19.5000        2   77.84%
+*     0+    0                           20.0000       19.5000             2.50%
+      0     0        cutoff             20.0000       19.5000        2    2.50%
+Elapsed time = 0.00 sec. (0.12 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.12 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.12 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.965951919556
+Row 'c21' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.963756084442
+Tried aggregator 2 times.
+MIP Presolve eliminated 30 rows and 24 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 4 rows, 8 columns, and 18 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Found incumbent of value 0.000000 after 0.00 sec. (0.07 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.07 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.07 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.961066961288
+Row 'c25' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.958925962448
+Row 'c20' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.956862926483
+Row 'c29' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.954843044281
+Row 'c31' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.952940940857
+Found incumbent of value 63.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 56 rows and 58 columns.
+MIP Presolve modified 43 coefficients.
+Aggregator did 1 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.08 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.09 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.09 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.950856924057
+Row 'c24' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.949033975601
+Row 'c37' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.947229862213
+Row 'c31' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.945489883423
+Row 'c41' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.943744897842
+Row 'c28' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.942055940628
+Row 'c45' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.940315008163
+Row 'c30' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_TimeLimit                               86399.938621044159
+Row 'c49' infeasible, all entries at implied bounds.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.02 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.02 ticks)
+--------------------------------
+Current state of priority queue: 
+    Node 2--e  with distance 0 
+    .... 
+    Node 4--q  with distance 63 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.0631399
+DistanceTo's solved: 18
+Adding node to fringe: 2--e 1--e  with distance 0 
+Adding node to fringe: 2--e 4--q  with distance 31 
+Adding node to fringe: 2--e 7--e  with distance 86 
+Size of fringe: 5
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.107244
+DistanceTo's solved: 34
+Adding node to fringe: 2--e 1--e 4--q  with distance 0 
+Adding node to fringe: 2--e 1--e 7--e  with distance 15 
+Size of fringe: 6
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.157304
+DistanceTo's solved: 48
+Adding node to fringe: 2--e 1--e 4--q 0--e  with distance 79 
+Adding node to fringe: 2--e 1--e 4--q 7--e  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 8--e  with distance 58 
+Size of fringe: 8
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.285873
+DistanceTo's solved: 60
+Adding node to fringe: 2--e 1--e 4--q 7--e 0--e  with distance 17 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e  with distance 0 
+Size of fringe: 9
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.526274
+DistanceTo's solved: 70
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e  with distance 0 
+Size of fringe: 9
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 0.825122
+DistanceTo's solved: 78
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 3--q  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 5--e  with distance 0 
+Adding node to fringe: 2--e 1--e 4--q 7--e 8--e 0--e 6--e  with distance 57 
+Size of fringe: 11
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e 3--q  with distance 0 
+    .... 
+    Node 2--e 7--e  with distance 86 
+--------------------------------
+CURRENT UPPER BOUND = 88
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 1.20812
+DistanceTo's solved: 84
+Pruning node 1--e  with distance 20 
+Pruning node 2--e 4--q  with distance 31 
+Pruning node 2--e 1--e 4--q 7--e 8--e 0--e 6--e  with distance 57 
+Pruning node 2--e 1--e 4--q 8--e  with distance 58 
+Pruning node 4--q  with distance 63 
+Pruning node 2--e 1--e 4--q 0--e  with distance 79 
+Pruning node 2--e 7--e  with distance 86 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 8--e 0--e 5--e  with distance 0 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 0
+TOTAL TIME USED SO FAR: 1.9592
+DistanceTo's solved: 86
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 1.95938
+DistanceTo's solved: 86
+Adding node to fringe: 2--e 1--e 7--e 4--q  with distance 15 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 2.00736
+DistanceTo's solved: 98
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e  with distance 15 
+Adding node to fringe: 2--e 1--e 7--e 4--q 8--e  with distance 15 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 2.16454
+DistanceTo's solved: 108
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e  with distance 15 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 8--e  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 2.67443
+DistanceTo's solved: 116
+Node subsumed: 2--e 1--e 7--e 4--q 8--e 0--e  with distance 15 
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 3.13667
+DistanceTo's solved: 124
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e 3--q  with distance 15 
+Adding node to fringe: 2--e 1--e 7--e 4--q 0--e 8--e 5--e  with distance 15 
+Size of fringe: 3
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e 3--q  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 20
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 3.69035
+DistanceTo's solved: 130
+Size of fringe: 2
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 7--e 4--q 0--e 8--e 5--e  with distance 15 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 17
+BEST LOWER BOUND = 15
+TOTAL TIME USED SO FAR: 5.18698
+DistanceTo's solved: 132
+Size of fringe: 1
+--------------------------------
+Current state of priority queue: 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+    .... 
+    Node 2--e 1--e 4--q 7--e 0--e  with distance 17 
+--------------------------------
+CURRENT UPPER BOUND = 17
+BEST LOWER BOUND = 17
+TOTAL TIME USED SO FAR: 5.1871
+DistanceTo's solved: 132
+Lower and Upper bound are close enough.
+LB 17 UB 17
+TOTAL TIME USED SO FAR: 5.18711
+====================================
+Minimal manipulation: 17
+Manipulated order: 3--e 2--e 8--e 5--q 1--e 9--e 4--q 7--e 6--q 
+Distance calls: 132
+CURRENT UPPER BOUND: 17
+CURRENT LOWER BOUND: 17
+Best definite upper bound: 88
+====================================

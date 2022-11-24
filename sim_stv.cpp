@@ -221,78 +221,99 @@ double WEUB(const Ballots &ballots, const Doubles &votecounts,
 				votecounts, config, false);
 		}
 		else{
-			// start with candidate with largest surplus
-			Candidate &elect = cand[surpluses.front().id];
-			double surplus = surpluses.front().weight;
+			L_IDS new_surpluses;
+    
+                	while(!surpluses.empty()){
+				// start with candidate with largest surplus
+				Candidate &elect = cand[surpluses.front().id];
+				double surplus = surpluses.front().weight;
 
-			if(config.addonly){
-				for(int i = 0; i < cand.size(); ++i){
-					if(i == elect.index)
-						continue;
-					double tally = cand[i].sim_votes;
+				if(config.addonly){
+					for(int i = 0; i < cand.size(); ++i){
+						if(i == elect.index)
+							continue;
+						double tally = cand[i].sim_votes;
 
-					if(elected.find(i) == elected.end() &&
-						cand[i].standing){
-						// How many votes to add to i's 
-						// tally to reach 'tally'
-						double wsub=max(0.0,elect.sim_votes-tally+1);
-						double nq = 1.0 + ((config.totalvotes+wsub)/(config.nseats+1.0));
-						double weub_next = -1;
-						if(tally+nq >= nq){
-							if(weub == -1){
-								weub_next = wsub;
+						if(elected.find(i) == elected.end() &&
+							cand[i].standing){
+							// How many votes to add to i's 
+							// tally to reach 'tally'
+							double wsub=max(0.0,elect.sim_votes-tally+1);
+							double nq = 1.0 + ((config.totalvotes+wsub)/(config.nseats+1.0));
+							double weub_next = -1;
+							if(tally+nq >= nq){
+								if(weub == -1){
+									weub_next = wsub;
+								}
+								else if(weub > wsub){
+									weub_next = wsub;
+								}
 							}
-							else if(weub > wsub){
-								weub_next = wsub;
-							}
-						}
 
-						if(weub_next != -1 && weub_next != weub){
-							Ballots newballots(ballots);
-							Ballot nb;
-							nb.tag = newballots.size();
-							nb.prefs.push_back(i);
-							nb.votes = wsub;
-							newballots.push_back(nb);
+							if(weub_next != -1 && weub_next != weub){
+								Ballots newballots(ballots);
+								Ballot nb;
+								nb.tag = newballots.size();
+								nb.prefs.push_back(i);
+								nb.votes = wsub;
+								newballots.push_back(nb);
 								
-							Doubles votecounts;
-							for(int i = 0; i < newballots.size(); ++i){
-								votecounts.push_back(newballots[i].votes);
-							}
+								Doubles votecounts;
+								for(int i = 0; i < newballots.size(); ++i){
+									votecounts.push_back(newballots[i].votes);
+								}
 
-							Candidates candcopy(cand);
-							Ints simorderc;
-							Ints simordera;
-							double mindiff = 0;
-							bool alternate = false;
+								Candidates candcopy(cand);
+								Ints simorderc;
+								Ints simordera;
+								double mindiff = 0;
+								bool alternate = false;
 
-							SimSTV(newballots, votecounts, candcopy, config, simorderc,
-								simordera, false, mindiff);  
+								SimSTV(newballots, votecounts, candcopy, config, simorderc,
+									simordera, false, mindiff);  
 
-							for(int i = 0; i < candcopy.size(); ++i){
-								const Candidate &c = candcopy[i];
-								if(c.seat != -1 && elected.find(i) == elected.end()){
-									// We have found an alternate outcome
-									alternate = true;
-									break;
-								}	
-							}
-							if(alternate){
-								weub = weub_next;			
+								for(int i = 0; i < candcopy.size(); ++i){
+									const Candidate &c = candcopy[i];
+									if(c.seat != -1 && elected.find(i) == elected.end()){
+										// We have found an alternate outcome
+										alternate = true;
+										break;
+									}	
+								}
+								if(alternate){
+									weub = weub_next;			
+								}
 							}
 						}
 					}
 				}
+			
+
+				elect.seat = currseat++;
+				elect.standing = 0;
+
+				// distribute surplus
+				DistributeSurplus(elect,cand,surplus,ballots,
+					votecounts, config, false);
+
+				surpluses.pop_front();
+				
+				for(int i = 0; i < cand.size(); ++i){
+				        Candidate &c = cand[i];
+
+				        if(!c.standing || c.surplus) 
+                            			continue;
+
+				        if(c.sim_votes >= quota){
+					        InsertCandidateSurplus(c, max(0.0,
+                                			c.sim_votes-quota), new_surpluses);
+					        c.surplus = 1;
+				        }
+			        }
 			}
-
-			elect.seat = currseat++;
-			elect.standing = 0;
-
-			// distribute surplus
-			DistributeSurplus(elect,cand,surplus,ballots,
-				votecounts, config, false);
-
-			surpluses.pop_front();
+			
+			surpluses.insert(surpluses.end(), new_surpluses.begin(),
+                    		new_surpluses.end());
 		}
 
 		if(currseat == config.nseats){

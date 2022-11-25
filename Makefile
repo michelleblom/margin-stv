@@ -1,31 +1,33 @@
 PROGRAM = stv
-CPLEX129=/opt/ibm/ILOG/CPLEX_Studio129
-CPLEX129LIB=$(CPLEX129)/cplex/lib/x86-64_linux/static_pic/
-CONCERT129LIB=$(CPLEX129)/concert/lib/x86-64_linux/static_pic/
+CPLEX=/Applications/CPLEX_Studio221
+CPLEXLIB=$(CPLEX)/cplex/lib/x86-64_osx/static_pic/
+CONCERTLIB=$(CPLEX)/concert/lib/x86-64_osx/static_pic/
 
 RM = rm -rf
 OBJDIR = obj
 
 BASEDIRS = \
 	-I. \
-	-I$(CPLEX129)/cplex/include \
-	-I$(CPLEX129)/concert/include 
+	-I$(CPLEX)/cplex/include \
+	-I$(CPLEX)/concert/include \
+    -I/opt/homebrew/include 
 
 
 INCLUDEDIRS = $(BASEDIRS)
 
-CXX = g++
+CXX = /opt/homebrew/opt/llvm/bin/clang++
 LD =
 SUFFIX = o
 
 CXXFLAGS = -Wall -pedantic -g $(INCLUDEDIRS) -m64 -fPIC \
 	-fexceptions -DNEBUG -DIL_STD -Wno-long-long \
-	-Wno-attributes -Wno-ignored-attributes -fpermissive -Wno-sign-compare
+	-Wno-attributes -Wno-ignored-attributes -fpermissive -Wno-sign-compare \
+    -Wno-unused-private-field
 
 
-LDFLAGS =   -lboost_system  -lboost_filesystem -lboost_thread \
-	-L$(CPLEX129LIB) -lilocplex -lcplex \
-	-L$(CONCERT129LIB) -lconcert -m64 -lm -lpthread -ldl -lrt
+LDFLAGS = -L/opt/homebrew/lib -lboost_system  -lboost_filesystem -lboost_thread-mt \
+	-L$(CPLEXLIB) -lilocplex -lcplex \
+	-L$(CONCERTLIB) -lconcert -lm -fopenmp
 
 
 RENAME = -o
